@@ -66,6 +66,14 @@ function logWins() {
     console.log("Player Wins:", playerWins);
     console.log("Computer Wins:", computerWins);
     console.log("Ties:", ties);
+    
+    if(playerWins > computerWins){
+        console.log("Awesome!!! you win.");
+    } else if(playerWins < computerWins){
+        console.log("Loser!!! Computer wins.");
+    } else {
+        console.log("It's a tie!!!");
+    }
 }
 
 function logRound(playerChoice, computerChoice, winner, round) {
