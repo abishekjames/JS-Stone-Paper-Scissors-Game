@@ -1,1 +1,1 @@
-# JS-Stone-Paper-Scissors-Game-
+# JS-Stone-Paper-Scissors-Game
